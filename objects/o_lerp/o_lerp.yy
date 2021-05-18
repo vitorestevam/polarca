@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "example",
-    "path": "folders/arrp/example.yy",
+    "name": "aarp direct",
+    "path": "folders/arrp/examples/aarp direct.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_lerp",

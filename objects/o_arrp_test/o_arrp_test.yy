@@ -26,11 +26,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "animation controller",
-    "path": "folders/arrp/examples/animation controller.yy",
+    "name": "arrp controller",
+    "path": "folders/arrp/examples/arrp controller.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_anin_curve_test",
+  "name": "o_arrp_test",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "animationCurveInterpolation",
-    "path": "animationCurveInterpolation.yyp",
+    "name": "arrp",
+    "path": "folders/arrp.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_anim_curve_controller",

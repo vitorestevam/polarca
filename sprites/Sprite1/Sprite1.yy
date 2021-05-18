@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "example",
-    "path": "folders/arrp/example.yy",
+    "name": "examples",
+    "path": "folders/arrp/examples.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite1",

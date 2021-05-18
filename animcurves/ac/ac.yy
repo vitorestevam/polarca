@@ -12,8 +12,8 @@
       ],"resourceVersion":"1.0","name":"curve2","tags":[],"resourceType":"GMAnimCurveChannel",},
   ],
   "parent": {
-    "name": "example",
-    "path": "folders/arrp/example.yy",
+    "name": "animations curves",
+    "path": "folders/arrp/animations curves.yy",
   },
   "resourceVersion": "1.2",
   "name": "ac",
