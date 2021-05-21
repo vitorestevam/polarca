@@ -3,7 +3,7 @@
 /// @param _animcurv -> animation curve that controller should use
 /// @param _channel_index -> channel index from animation curve that controller should use 
 /// @param _curve_speed -> animation speed
-function Animation(_attribute,_value, _animcurv, _channel_index, _curve_speed) constructor{
+function polarca_animation(_attribute,_value, _animcurv, _channel_index, _curve_speed) constructor{
     instance= other.id;
     attribute_name= _attribute;
 	value1 = variable_instance_get(other,_attribute)
@@ -51,8 +51,8 @@ function arrp(_val1, _val2, _amount, _curve, _channel_index){
 
 /// @description creates a controller that does the interpolation for you with only one function call
 /// @param _arr -> an array of Animations
-function arrp_start(_arr){
-	var _controller = instance_create_depth(0, 0, 0, o_arrp_controller)
+function polarca_animation_start(_arr){
+	var _controller = instance_create_depth(0, 0, 0, o_polarca_animation_controller)
 	with(_controller){
 		animations = _arr
 		init()
@@ -62,18 +62,18 @@ function arrp_start(_arr){
 }
 
 /// @param _arr -> an array of an array Animations
-function arrp_start_sequence(_arr){
+function polarca_sequence_start(_arr){
 	var _controllers = []
 	var _len = array_length_1d(_arr)
 	for (var i = 0; i < _len; ++i) {
 	    var _subarr = _arr[i]
 		
-		var _controller = arrp_start(_subarr)
+		var _controller = polarca_animation_start(_subarr)
 		instance_deactivate_object(_controller)
 		_controllers[i] = _controller
 	}
 	
-	with(instance_create_depth(0,0,0,o_arrp_sequence_controller)){
+	with(instance_create_depth(0,0,0,o_polarca_sequence_controller)){
 		controllers = _controllers
 		init()
 	}

@@ -6,7 +6,7 @@
     "path": "folders/arrp.yy",
   },
   "resourceVersion": "1.0",
-  "name": "animationCurveInterpolation",
+  "name": "polarca",
   "tags": [],
   "resourceType": "GMScript",
 }

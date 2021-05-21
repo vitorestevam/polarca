@@ -1,12 +1,12 @@
 {
   "resources": [
-    {"id":{"name":"o_arrp_sequence_controller","path":"objects/o_arrp_sequence_controller/o_arrp_sequence_controller.yy",},"order":3,},
+    {"id":{"name":"o_polarca_sequence_controller","path":"objects/o_polarca_sequence_controller/o_polarca_sequence_controller.yy",},"order":3,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
     {"id":{"name":"o_arrp_start_sequence_example","path":"objects/o_arrp_start_sequence_example/o_arrp_start_sequence_example.yy",},"order":2,},
     {"id":{"name":"ac","path":"animcurves/ac/ac.yy",},"order":3,},
-    {"id":{"name":"animationCurveInterpolation","path":"scripts/animationCurveInterpolation/animationCurveInterpolation.yy",},"order":1,},
+    {"id":{"name":"polarca","path":"scripts/polarca/polarca.yy",},"order":1,},
     {"id":{"name":"o_arrp_start_example","path":"objects/o_arrp_start_example/o_arrp_start_example.yy",},"order":1,},
-    {"id":{"name":"o_arrp_controller","path":"objects/o_arrp_controller/o_arrp_controller.yy",},"order":2,},
+    {"id":{"name":"o_polarca_animation_controller","path":"objects/o_polarca_animation_controller/o_polarca_animation_controller.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":1,},
   ],
   "Options": [
