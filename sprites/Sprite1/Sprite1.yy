@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "examples",
-    "path": "folders/arrp/examples.yy",
+    "path": "folders/examples.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite1",

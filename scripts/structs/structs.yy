@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "animationCurveInterpolation",
-    "path": "animationCurveInterpolation.yyp",
+    "name": "arrp",
+    "path": "folders/arrp.yy",
   },
   "resourceVersion": "1.0",
   "name": "structs",
