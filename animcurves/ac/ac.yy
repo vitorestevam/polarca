@@ -13,7 +13,7 @@
   ],
   "parent": {
     "name": "animations curves",
-    "path": "folders/arrp/animations curves.yy",
+    "path": "folders/arrp/examples/animations curves.yy",
   },
   "resourceVersion": "1.2",
   "name": "ac",

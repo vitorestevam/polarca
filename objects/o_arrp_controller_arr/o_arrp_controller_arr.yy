@@ -29,7 +29,7 @@
     "path": "folders/arrp.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_arrp_controller",
+  "name": "o_arrp_controller_arr",
   "tags": [],
   "resourceType": "GMObject",
 }

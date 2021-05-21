@@ -27,7 +27,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "animation controller",
-    "path": "folders/arrp/examples/animation controller.yy",
+    "path": "folders/anim _curve_controller/animation controller.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_anin_curve_test",

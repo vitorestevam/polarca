@@ -27,7 +27,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "arrp controller",
-    "path": "folders/arrp/examples/arrp controller.yy",
+    "path": "folders/arrp/examples/objects/arrp controller.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_arrp_test",

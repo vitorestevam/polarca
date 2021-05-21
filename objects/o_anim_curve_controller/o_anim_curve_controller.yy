@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "arrp",
-    "path": "folders/arrp.yy",
+    "name": "anim _curve_controller",
+    "path": "folders/anim _curve_controller.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_anim_curve_controller",
