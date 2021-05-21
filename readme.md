@@ -7,7 +7,6 @@
 <br/>
 
 <details>
-     <br/>
 	<summary>struct polarca_animation</summary>
      
 ## that struct stores all the important information about our animation
@@ -20,11 +19,7 @@
      polarca_animation(_attribute,_value, _animcurv, _channel_index, _curve_speed)
 </details>
 
-<br/>
-
 <details>
-<br/>
-     <br/>
 	<summary>function polarca_animation_start</summary>
      
 ## creates a controller that does the interpolation for you
@@ -34,10 +29,7 @@
      polarca_animation_start(_arr)
 </details>
 
-<br/>
-
 <details>
-     <br/>
 	<summary>function polarca_sequence_start</summary>
      
 ## creates a controller that does sequencials interpolations for you
