@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "arrp",
-    "path": "folders/arrp.yy",
+    "name": "polarca",
+    "path": "folders/polarca.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_polarca_animation_controller",

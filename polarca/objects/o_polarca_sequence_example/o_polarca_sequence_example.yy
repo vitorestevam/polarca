@@ -30,7 +30,7 @@
     "path": "folders/examples/objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_arrp_start_sequence_example",
+  "name": "o_polarca_sequence_example",
   "tags": [],
   "resourceType": "GMObject",
 }
