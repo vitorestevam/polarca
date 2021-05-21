@@ -1,4 +1,9 @@
 <img src="docs/img_header.png"  />
+<div align="right">
+     <a href="https://github.com/VitorEstevam/polarca/raw/master/polarca.yymps">
+         download package
+     </a>
+</div>
 
 # Interpolate anything using animation curves with just a few lines 🐻‍❄️
 ___
