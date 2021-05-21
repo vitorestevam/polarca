@@ -1,40 +1,37 @@
 <img src="docs/img_header.png"  />
 
-# polarca is a good way to interpolate anything in game maker studio 2 🐻‍❄️
-
-### The usage is pretty simple. Basically we have 1 struct and two methods to explore
+# Interpolate anything using animation curves with just a few lines 🐻‍❄️
+___
 
 <br/>
 
-<details>
-	<summary>struct polarca_animation</summary>
-     
-## that struct stores all the important information about our animation
-     /// @param _attribute -> name of the attribute you like do change
-     /// @param _value -> Value that you want to attribute reach
-     /// @param _animcurv -> animation curve that controller should use
-     /// @param _channel_index -> channel index from animation curve that controller should use 
-     /// @param _curve_speed -> animation speed
+# why polarca?
 
-     polarca_animation(_attribute,_value, _animcurv, _channel_index, _curve_speed)
-</details>
+### Polarca is the simplest way to use animation curves to interpolate values in game maker studio 2
 
-<details>
-	<summary>function polarca_animation_start</summary>
-     
-## creates a controller that does the interpolation for you
+<br/>
 
-     /// @param _arr -> an array of Animations
+### you just need to create some polarca_animation instances and run it:
 
-     polarca_animation_start(_arr)
-</details>
+     //create
+     a1 = new polarca_animation("x",800,ac,0,0.005)
+     polarca_animation_start([a1,a2])
 
-<details>
-	<summary>function polarca_sequence_start</summary>
-     
-## creates a controller that does sequential interpolations for you using multiples controllers.
-     /// @param _arr -> an array of an array of Animations
+### Whit this lib you can also create sequential animation in the simplest way ever! Just pass some arrays of arrays and see the magic happening:
 
-     polarca_sequence_start(_arr)
-</details>
+     //create
+     a1 = new polarca_animation("x",x+200,ac,0,0.01)
+     a2 = new polarca_animation("y",y+200,ac,0,0.01)
+     alpha1 = new polarca_animation("image_alpha",0.25,ac,0,0.01)
+     alpha2 = new polarca_animation("image_alpha",1,ac,0,0.01)
+     polarca_sequence_start(
+          [[a1,alpha1],
+          [a2,alpha2]]
+     )
 
+
+<div align="center">
+     <a href="https://github.com/VitorEstevam/prototipo_construcao/raw/main/city%20builder%202021.zip">
+          Want to know more details about each function? Click here.
+     </a>
+</div>
