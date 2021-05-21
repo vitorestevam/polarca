@@ -2,15 +2,9 @@
 
 # Interpolate anything using animation curves with just a few lines 🐻‍❄️
 ___
-
-<br/>
-
 # why polarca?
 
-### Polarca is the simplest way to use animation curves to interpolate values in game maker studio 2
-
-<br/>
-
+## Polarca is the simplest way to use animation curves to interpolate values in game maker studio 2
 ### you just need to create some polarca_animation instances and run it:
 
      //create
@@ -31,7 +25,7 @@ ___
 
 
 <div align="center">
-     <a href="https://github.com/VitorEstevam/prototipo_construcao/raw/main/city%20builder%202021.zip">
+     <a href="https://github.com/VitorEstevam/polarca/blob/master/details.md">
           Want to know more details about each function? Click here.
      </a>
 </div>
