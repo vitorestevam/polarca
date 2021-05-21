@@ -2,7 +2,6 @@
   "resources": [
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
     {"id":{"name":"ac1","path":"animcurves/ac1/ac1.yy",},"order":1,},
-    {"id":{"name":"structs","path":"scripts/structs/structs.yy",},"order":3,},
     {"id":{"name":"ac","path":"animcurves/ac/ac.yy",},"order":0,},
     {"id":{"name":"animationCurveInterpolation","path":"scripts/animationCurveInterpolation/animationCurveInterpolation.yy",},"order":1,},
     {"id":{"name":"o_arrp_struct_test","path":"objects/o_arrp_struct_test/o_arrp_struct_test.yy",},"order":1,},
