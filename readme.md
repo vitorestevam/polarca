@@ -31,7 +31,7 @@ ___
 
 
 <div align="center">
-     <a href="https://github.com/VitorEstevam/prototipo_construcao/raw/main/city%20builder%202021.zip">
+     <a href="https://github.com/VitorEstevam/polarca/blob/master/details.md">
           Want to know more details about each function? Click here.
      </a>
 </div>
