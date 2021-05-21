@@ -32,7 +32,7 @@
 <details>
 	<summary>function polarca_sequence_start</summary>
      
-## creates a controller that does sequencials interpolations for you
+## creates a controller that does sequential interpolations for you using multiples controllers.
      /// @param _arr -> an array of an array of Animations
 
      polarca_sequence_start(_arr)
