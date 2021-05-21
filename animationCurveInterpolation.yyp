@@ -1,13 +1,12 @@
 {
   "resources": [
+    {"id":{"name":"o_arrp_sequence_controller","path":"objects/o_arrp_sequence_controller/o_arrp_sequence_controller.yy",},"order":3,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
-    {"id":{"name":"ac1","path":"animcurves/ac1/ac1.yy",},"order":1,},
-    {"id":{"name":"ac","path":"animcurves/ac/ac.yy",},"order":0,},
+    {"id":{"name":"o_arrp_start_sequence_example","path":"objects/o_arrp_start_sequence_example/o_arrp_start_sequence_example.yy",},"order":2,},
+    {"id":{"name":"ac","path":"animcurves/ac/ac.yy",},"order":3,},
     {"id":{"name":"animationCurveInterpolation","path":"scripts/animationCurveInterpolation/animationCurveInterpolation.yy",},"order":1,},
-    {"id":{"name":"o_arrp_struct_test","path":"objects/o_arrp_struct_test/o_arrp_struct_test.yy",},"order":1,},
-    {"id":{"name":"o_arrp","path":"objects/o_arrp/o_arrp.yy",},"order":0,},
-    {"id":{"name":"o_lerp","path":"objects/o_lerp/o_lerp.yy",},"order":1,},
-    {"id":{"name":"o_arrp_controller_arr","path":"objects/o_arrp_controller_arr/o_arrp_controller_arr.yy",},"order":2,},
+    {"id":{"name":"o_arrp_start_example","path":"objects/o_arrp_start_example/o_arrp_start_example.yy",},"order":1,},
+    {"id":{"name":"o_arrp_controller","path":"objects/o_arrp_controller/o_arrp_controller.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":1,},
   ],
   "Options": [
@@ -33,11 +32,8 @@
   ],
   "Folders": [
     {"folderPath":"folders/examples.yy","order":1,"resourceVersion":"1.0","name":"examples","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/examples/objects/aarp direct.yy","order":1,"resourceVersion":"1.0","name":"aarp direct","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/examples/animations curves.yy","order":2,"resourceVersion":"1.0","name":"animations curves","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/examples/objects/arrp controller.yy","order":0,"resourceVersion":"1.0","name":"arrp controller","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/arrp.yy","order":0,"resourceVersion":"1.0","name":"arrp","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/examples/objects.yy","order":3,"resourceVersion":"1.0","name":"objects","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/examples/objects.yy","order":2,"resourceVersion":"1.0","name":"objects","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

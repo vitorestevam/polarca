@@ -22,16 +22,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "aarp direct",
-    "path": "folders/examples/objects/aarp direct.yy",
+    "name": "objects",
+    "path": "folders/examples/objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_lerp",
+  "name": "o_arrp_start_sequence_example",
   "tags": [],
   "resourceType": "GMObject",
 }

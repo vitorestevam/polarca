@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "arrp controller",
+    "path": "folders/arrp/examples/objects/arrp controller.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_arrp",
+  "name": "o_arrp_test",
   "tags": [],
   "resourceType": "GMObject",
 }

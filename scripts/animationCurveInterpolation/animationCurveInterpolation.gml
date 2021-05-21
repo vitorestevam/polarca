@@ -12,8 +12,12 @@ function Animation(_attribute,_value, _animcurv, _channel_index, _curve_speed) c
 	channel_index = _channel_index;
 	curve_speed = _curve_speed;
 	
+	update_initial_value = function(){
+		value1 = variable_instance_get(instance,attribute_name)
+	}
+	
 	get_value = function(pos){
-		return arrp(value1,value2,pos, animcurv)
+		return arrp(value1,value2,pos, animcurv,channel_index)
 	}
 	
 	instance_set_value = function(_value){
@@ -26,33 +30,51 @@ function Animation(_attribute,_value, _animcurv, _channel_index, _curve_speed) c
 	}
 }
 
-/// @description returns a value between val1 and val2 from amount. Works very similar to LERP
-/// @param val1
-/// @param val2
-/// @param amount
-/// @param animation_curve
-function arrp(val1, val2, amount, curve){	
+/// @description returns a value between _val1 and _val2 from _amount. Works very similar to LERP
+/// @param _val1
+/// @param _val2
+/// @param _amount
+/// @param animation__curve
+function arrp(_val1, _val2, _amount, _curve, _channel_index){	
 	//setup
-	amount = clamp(amount,0,1) // prevent erro
+	_amount = clamp(_amount,0,1) // prevent erro
 	
-	var _distance = val2 - val1
-	var _curve_struct = animcurve_get(curve)
-	var _curve_channel = animcurve_get_channel(_curve_struct,0)
+	var _distance = _val2 - _val1
+	var _curve_struct = animcurve_get(_curve)
+	var _curve_channel = animcurve_get_channel(_curve_struct,_channel_index)
 	
 	//movement
-	var _value = animcurve_channel_evaluate(_curve_channel,amount)
+	var _value = animcurve_channel_evaluate(_curve_channel,_amount)
 
-	return val1+(_distance*_value)
+	return _val1+(_distance*_value)
 }
 
 /// @description creates a controller that does the interpolation for you with only one function call
 /// @param _arr -> an array of Animations
 function arrp_start(_arr){
-	var _controller = instance_create_depth(0, 0, 0, o_arrp_controller_arr)
+	var _controller = instance_create_depth(0, 0, 0, o_arrp_controller)
 	with(_controller){
 		animations = _arr
 		init()
 	}
+	
+	return _controller
 }
 
-
+/// @param _arr -> an array of an array Animations
+function arrp_start_sequence(_arr){
+	var _controllers = []
+	var _len = array_length_1d(_arr)
+	for (var i = 0; i < _len; ++i) {
+	    var _subarr = _arr[i]
+		
+		var _controller = arrp_start(_subarr)
+		instance_deactivate_object(_controller)
+		_controllers[i] = _controller
+	}
+	
+	with(instance_create_depth(0,0,0,o_arrp_sequence_controller)){
+		controllers = _controllers
+		init()
+	}
+}
