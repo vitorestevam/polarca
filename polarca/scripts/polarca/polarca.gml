@@ -1,3 +1,4 @@
+/// @description struct that store all the important information about our animation
 /// @param _attribute -> name of the attribute you like do change
 /// @param _value -> Value that you want to attribute reach
 /// @param _animcurv -> animation curve that controller should use
