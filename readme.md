@@ -1,14 +1,5 @@
-# Animation Curve Interpolation
-
->  it works in a very similar way to LERP(), but receives an animation curve and returns the value of the position
-
-## how to use:
-     // create
-     pos = 0
-
-<br>
-
-     //step
-     x = arrp(0,800,pos, ac1)
-     pos+=0.005
-     pos = clamp(pos, 0,1)
+<p float="left">
+  <img src="docs/img_logo_hand.png" width="300" />
+  <img src="docs/img_title.png" width="800" />
+  <!-- <img src="/img2.png" width="100" />  -->
+</p>
