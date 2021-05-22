@@ -34,3 +34,11 @@ ___
           Want to know more details about each function? Click here.
      </a>
 </div>
+
+___
+# examples
+
+<div align="center">
+     <img src="docs/examples.gif"  />
+</div>
+
