@@ -30,7 +30,7 @@
     "path": "folders/examples/objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_ui_loop_bar",
+  "name": "o_ui_bar",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,6 @@
 {
   "resources": [
     {"id":{"name":"o_polarca_sequence_controller","path":"objects/o_polarca_sequence_controller/o_polarca_sequence_controller.yy",},"order":3,},
-    {"id":{"name":"ac2","path":"animcurves/ac2/ac2.yy",},"order":5,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
     {"id":{"name":"o_ui_test","path":"objects/o_ui_test/o_ui_test.yy",},"order":3,},
     {"id":{"name":"ac1","path":"animcurves/ac1/ac1.yy",},"order":4,},
@@ -10,7 +9,7 @@
     {"id":{"name":"polarca","path":"scripts/polarca/polarca.yy",},"order":1,},
     {"id":{"name":"o_animation_example","path":"objects/o_animation_example/o_animation_example.yy",},"order":1,},
     {"id":{"name":"o_polarca_animation_controller","path":"objects/o_polarca_animation_controller/o_polarca_animation_controller.yy",},"order":2,},
-    {"id":{"name":"o_ui_loop_bar","path":"objects/o_ui_loop_bar/o_ui_loop_bar.yy",},"order":4,},
+    {"id":{"name":"o_ui_bar","path":"objects/o_ui_bar/o_ui_bar.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":1,},
   ],
   "Options": [
