@@ -30,7 +30,7 @@
     "path": "folders/examples/objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_polarca_sequence_example",
+  "name": "o_ui_test",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -38,7 +38,7 @@ function polarca_animation(_attribute,_value, _animcurv, _channel_index, _curve_
 /// @param animation__curve
 function arrp(_val1, _val2, _amount, _curve, _channel_index){	
 	//setup
-	_amount = clamp(_amount,0,1) // prevent erro
+	//_amount = clamp(_amount,0,1) // prevent erro
 	
 	var _distance = _val2 - _val1
 	var _curve_struct = animcurve_get(_curve)
