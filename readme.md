@@ -13,20 +13,18 @@ ___
 ### you just need to create some polarca_animation instances and run it:
 
      //create
-     a1 = new polarca_animation("x",800,ac,0,0.005)
-     polarca_animation_start([a1,a2])
+     xa = new polarca_animation("x",x+400,ac,0,0.005)
+     polarca_animation_start([xa])
 
-### Whit this lib you can also create sequential animation in the simplest way ever! Just pass some arrays of arrays and see the magic happening:
+### With this lib you can also create sequential animation in the simplest way ever! Just pass some arrays of arrays and see the magic happening:
 
      //create
-     a1 = new polarca_animation("x",x+200,ac,0,0.01)
-     a2 = new polarca_animation("y",y+200,ac,0,0.01)
-     alpha1 = new polarca_animation("image_alpha",0.25,ac,0,0.01)
-     alpha2 = new polarca_animation("image_alpha",1,ac,0,0.01)
-     polarca_sequence_start(
-          [[a1,alpha1],
-          [a2,alpha2]]
-     )
+     ya = new polarca_animation("image_yscale",8,ac1,1,0.005)
+     xa = new polarca_animation("image_xscale",8,ac1,0,0.005)
+     polarca_sequence_start([
+     [ya],
+     [xa]
+     ])
 
 
 <div align="center">
